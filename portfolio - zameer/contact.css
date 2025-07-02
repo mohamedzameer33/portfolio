@@ -1,0 +1,411 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+* {
+    font-family: "Ubuntu", sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: rgb(70, 67, 67);
+    --black2: rgb(82, 82, 82);
+    --black3: rgb(43, 43, 43);
+    --org: hsl(35, 100%, 68%);
+    --grey: rgb(182, 182, 182);
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.me{
+    height: 190px;
+width: 190px;
+border-radius: 30px;
+position: relative;
+top: 60px;
+
+}
+.details, .contact-info{
+    position: relative;
+    top: 80px;
+}
+.navbar.navigation {
+    height: 70px;
+   border-radius: 10px;
+     width: 483px;
+         background-color: rgba(7, 5, 5, 0.712);
+     position: relative;
+     left: 25px;
+     top: -23px;
+     margin-left: auto;
+ }
+ .contact-info{
+    position: relative;
+    top: 100px;
+ }
+ .form-btn {
+    font-size: 20px;
+    border-radius: 15px;
+    background: rgb(36, 34, 34);
+    color: bisque;
+    padding: 15px 40px;
+    border: rgb(24, 23, 23) solid 1px;
+    cursor:pointer;
+ }
+ .form-btn:hover{
+    cursor: no-drop;
+ }
+
+ .navbar .navbar-toggler {position: relative;
+     bottom: 0px;
+     border: none;
+     color: white;
+ }
+ 
+ .navbar .navbar-toggler-icon {
+     position: relative;
+     bottom: 10px;
+     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+ }
+ 
+ .navbar  {
+     
+     color: white;
+     font-weight: 500;
+     font-size: 20px;
+ }
+  .About {
+         text-decoration: none;
+         color: rgb(255, 255, 252);
+         font-weight: 500;
+         font-size: 20px;
+         position: relative;
+         left: -60px;
+         top: 0px;
+     }
+ 
+     .Resume {
+         text-decoration: none;
+         color: rgb(255, 255, 252);
+         font-weight: 500;
+         font-size: 20px;
+         position: relative;
+         left: -40px;
+         top: 0px;
+     }
+ 
+     .Projects {
+         text-decoration: none;
+         color: hsl(35, 100%, 68%);
+         font-weight: 500;
+         font-size: 20px;
+         position: relative;
+         left:-20px;
+         top: 0px;
+     }
+ 
+     .Contact {
+         text-decoration: none;
+         color: rgb(255, 255, 255);
+         font-weight: 500;
+         font-size: 20px;
+         position: relative;
+         left: 0px;
+         top: 0px;
+     }
+ 
+
+.profile {
+    background: linear-gradient(to bottom right, #ccedd8, #f4dda7);
+    border-radius: 20px;
+    height: 900px;
+}
+
+.main {
+    background: linear-gradient(to bottom right, #ccedd8, #f4dda7);
+    border-radius: 20px;
+}
+
+
+.navigation {
+    background-color: rgba(7, 5, 5, 0.712);
+    border-bottom-left-radius: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.nav-link.Contact {
+    color: var(--org);
+}
+
+.nav-link:hover:not(.Contact) {
+    color: #f79a9a;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.name {
+    font-weight: bold;
+    color: rgb(59, 59, 59);
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.developer {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    font-weight: 500;
+    padding: 6px 20px;
+    border-radius: 10px;
+}
+
+.mail-icon, .phone-icon, .linkedin-icon, .git-icon, .cv-icon {
+    background-color: rgb(44, 44, 44);
+    color: var(--org);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.email, .mobile, .linkedinid, .gitname, .cvid {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.mymail, .myphone, .myid, .mygitid, .mycv {
+    text-decoration: none;
+    color: rgb(70, 67, 67);
+    word-break: break-all;
+}
+
+.contact1 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--black3);
+    letter-spacing: 3px;
+}
+
+.line {
+    background-color: rgb(92, 24, 24);
+    height: 8px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.map {
+    filter: invert(1) hue-rotate(180deg) brightness(0.5) saturate(0) brightness(2);width: 980px;height: 400px;
+}
+
+form input[type="radio"] {
+    display: none;
+}
+
+.conticket {
+    color: var(--black3);
+    font-size: 27px;
+    word-spacing: 2px;
+}
+
+.white {
+    border: var(--grey) solid 1px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.white:hover {
+    background-color: white;
+    border: var(--black) solid 1px;
+}
+
+.form-input, .form-input2, .form-input3 {
+    background-color: transparent;
+    border-radius: 15px;
+    border: var(--black2) solid 1px;
+    font-size: 20px;
+    padding: 13px 15px;
+}
+
+.form-input::placeholder, .form-input2::placeholder, .form-input3::placeholder {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.form-input:focus, .form-input2:focus, .form-input3:focus {
+    border: goldenrod solid 1px;
+    outline: none;
+}
+
+.form-inputt {
+    display: none;
+}
+
+.browse-label {
+    padding: 10px 20px;
+    border: var(--black2) solid 1px;
+    color: rgb(255, 0, 0);
+    border-radius: 7px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.imgg {
+    max-width: 30%;
+}
+
+.form-btn {
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.795);
+    color: bisque;
+    padding: 15px 40px;
+    border: rgb(24, 23, 23) solid 1px;
+}
+
+.md-hydrated {
+    position: relative;
+    top: 3px;
+    margin-right: 6px;
+}
+
+.send {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+.form-btn:hover {  cursor: pointer;
+    .send{
+        color:green;
+        font-weight: bold;
+        text-decoration:green  ;
+    }
+  
+}
+/* Media Queries */
+@media (max-width: 991px) {
+    .contact1 {
+        font-size: 45px;
+    }
+    
+    .navigation {
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact1 {
+        font-size: 35px;
+    }
+    
+    .line {
+        width: 150px;
+    }
+    
+    .nav-link {
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .conticket {
+        font-size: 22px;
+    }
+    
+    .form-input, .form-input2, .form-input3 {
+        font-size: 16px;
+    }
+    
+    .form-btn {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    
+    .imgg {
+        max-width: 50%;
+    }
+}
+@media (max-width:578px){
+    .navbar.navigation {
+        height: 80px;
+         border-bottom-left-radius: 20px;
+         border-top-right-radius: 20px;
+         width: 130px;
+             background-color:  rgb(59, 58, 58); 
+         position: relative;
+         left: 25px;
+         top: 0px;
+         margin-left: auto;
+     }
+     .navbar-collapse { 
+        background-color: rgb(59, 58, 58); 
+        padding: 10px; 
+        text-align: center;
+        justify-content: center;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+    }
+    .About {
+        text-decoration: none;
+        color: rgb(255, 255, 252);
+        font-weight: 500;
+        font-size: 20px;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+
+    .Resume {
+        text-decoration: none;
+        color: rgb(255, 255, 252);
+        font-weight: 500;
+        font-size: 20px;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+
+    .Projects {
+        text-decoration: none;
+        color: rgb(255, 255, 252);
+        font-size: 20px;
+        position: relative;
+        left:0px;
+        top: 0px;
+    }
+
+    .Contact {
+        text-decoration: none;
+        color: hsl(35, 100%, 68%);
+        font-weight: 500;
+        font-size: 20px;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+    .form-btn {
+        font-size: 20px;
+        border-radius: 15px;
+        background: rgb(36, 34, 34);
+        color: bisque;
+        padding: 15px 40px;
+        border: rgb(24, 23, 23) solid 1px;
+        cursor:pointer;
+    }
+        
+    
+    
+
+
+}

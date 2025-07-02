@@ -1,0 +1,429 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+* {
+    font-family: "Ubuntu", sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: rgb(70, 67, 67);
+    --black2: rgb(82, 82, 82);
+    --black3: rgb(43, 43, 43);
+    --org: hsl(35, 100%, 68%);
+}
+
+body {
+    min-height: 150vh;
+    
+    overflow-x: hidden;
+}
+
+
+
+.profile, .main {
+    background: linear-gradient(to bottom right, #ccedd8, #f4dda7);
+}
+
+.profile {
+    height: 900px;
+    width: auto;
+}
+
+.me{
+    height: 190px;
+width: 190px;
+border-radius: 30px;
+position: relative;
+top: 60px;
+
+}
+
+
+.main {
+    height: 1300px;
+    overflow-x: hidden;
+}
+
+
+
+
+.navbar.navigation {
+    height: 70px;
+border-radius: 10px;
+     width: 483px;
+         background-color: rgba(7, 5, 5, 0.712);
+     position: relative;
+     left: 25px;
+     top: -23px;
+     margin-left: auto;
+ }
+ 
+ 
+ .navbar .navbar-toggler {position: relative;
+     bottom: 0px;
+     border: none;
+     color: white;
+ }
+ 
+ .navbar .navbar-toggler-icon {
+     position: relative;
+     bottom: 10px;
+     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+ }
+ 
+ .navbar  {
+     
+     color: white;
+     font-weight: 500;
+     font-size: 20px;
+ }
+  .About {
+         text-decoration: none;
+         color: rgb(255, 255, 252);
+         font-weight: 500;
+         font-size: 20px;
+         position: relative;
+         left: -60px;
+         top: 0px;
+     }
+ 
+     .Resume {
+         text-decoration: none;
+         color: rgb(255, 255, 252);
+         font-weight: 500;
+         font-size: 20px;
+         position: relative;
+         left: -40px;
+         top: 0px;
+     }
+ 
+     .Projects {
+         text-decoration: none;
+         color: hsl(35, 100%, 68%);
+         font-weight: 500;
+         font-size: 20px;
+         position: relative;
+         left:-20px;
+         top: 0px;
+     }
+ 
+     .Contact {
+         text-decoration: none;
+         color: rgb(255, 255, 255);
+         font-weight: 500;
+         font-size: 20px;
+         position: relative;
+         left: 0px;
+         top: 0px;
+     }
+ 
+
+
+.details{
+    position: relative;
+    top: 90px;
+}
+
+.name {
+    font-weight: bold;
+    color: var(--black3);
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.developer {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    font-weight: 500;
+    padding: 6px 20px;
+    border-radius: 10px;
+}
+.contact-info{
+    position: relative;
+    top: 130px;
+    font-size: 18px;
+}
+.contact-info .mail-icon,
+.contact-info .phone-icon,
+.contact-info .linkedin-icon,
+.contact-info .git-icon,
+.contact-info .cv-icon {
+    background-color: rgb(44, 44, 44);
+    color: var(--org);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: var(--black);
+    display: block;
+    margin-top: 5px;
+}
+
+
+.mymail {display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width:70%;
+}
+
+.profile {
+    background: linear-gradient(to bottom right, #ccedd8, #f4dda7);
+    border-radius: 20px;
+}
+
+.main {
+    background: linear-gradient(to bottom right, #ccedd8, #f4dda7);
+    border-radius: 20px;
+    min-height: 100vh;
+}
+
+
+.navigation {
+    background-color: rgba(7, 5, 5, 0.712);
+    border-bottom-left-radius: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.nav-link.Projects {
+    color: var(--org);
+}
+
+.nav-link:hover:not(.Projects) {
+    color: #f79a9a;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.name {
+    font-weight: bold;
+    color: rgb(59, 59, 59);
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+.developer {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    font-weight: 500;
+    padding: 6px 20px;
+    border-radius: 10px;
+}
+
+.mail-icon, .phone-icon, .linkedin-icon, .git-icon, .cv-icon {
+    background-color: rgb(44, 44, 44);
+    color: var(--org);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.email, .mobile, .linkedinid, .gitname, .cvid {
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.mymail, .myphone, .myid, .mygitid, .mycv {
+    text-decoration: none;
+    color: rgb(70, 67, 67);
+    word-break: break-all;
+}
+
+.project1 {
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--black3);
+    letter-spacing: 1px;
+}
+
+.line {
+    background-color: rgb(92, 24, 24);
+    height: 8px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.all {
+    text-decoration: none;
+    color: red;
+    font-size: 16px;
+    font-weight: 520;
+}
+
+.staticweb {
+    text-decoration: none;
+    color: var(--black3);
+    font-size: 16px;
+    font-weight: 520;
+}
+
+.markzoom {
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.markmaaj {
+    transition: all 0.3s ease-in-out;
+}
+
+.markmaaj:hover {
+    filter: brightness(0.5);
+    transform: scale(1.1);
+}
+
+.view {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    height: 50px;
+    width: 50px;
+    color: var(--org);
+    background-color: var(--black3);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+
+.view2 {
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+}
+
+.parent {
+    position: relative;
+}
+
+.parent:hover .view {
+    opacity: 1;
+}
+
+.hosptext1 {
+    font-weight: 400;
+    color: var(--black2);
+}
+
+.hosptext2 {
+    font-weight: 500;
+    color: var(--black3);
+}
+
+/* Media Queries */
+@media (max-width: 991px) {
+    .project1 {
+        font-size: 45px;
+    }
+    
+    .navigation {
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .project1 {
+        font-size: 35px;
+    }
+    
+    .line {
+        width: 150px;
+    }
+    
+    .markmaaj {
+        width: 100%;
+        height: auto;
+    }
+    
+    .parent {
+        width: 100%;
+    }
+    
+    .nav-link {
+        padding: 10px;
+        text-align: center;
+    }
+}
+@media(max-width:578px){
+    .navbar.navigation {
+        height: 80px;
+         border-bottom-left-radius: 20px;
+         border-top-right-radius: 20px;
+         width: 130px;
+             background-color:  rgb(59, 58, 58); 
+         position: relative;
+         left: 25px;
+         top: 0px;
+         margin-left: auto;
+     }
+     .navbar-collapse { 
+        background-color: rgb(59, 58, 58); 
+        padding: 10px; 
+        text-align: center;
+        justify-content: center;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+    }
+    .About {
+        text-decoration: none;
+        color: rgb(255, 255, 252);
+        font-weight: 500;
+        font-size: 20px;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+
+    .Resume {
+        text-decoration: none;
+        color: rgb(255, 255, 252);
+        font-weight: 500;
+        font-size: 20px;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+
+    .Projects {
+        text-decoration: none;
+        color: hsl(35, 100%, 68%);
+        font-weight: 500;
+        font-size: 20px;
+        position: relative;
+        left:0px;
+        top: 0px;
+    }
+
+    .Contact {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+        font-size: 20px;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+
+
+}

@@ -1,0 +1,404 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+* {
+    font-family: "Ubuntu", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: rgb(70, 67, 67);
+    --black2: rgb(82, 82, 82);
+    --black3: rgb(43, 43, 43);
+    --org: hsl(35, 100%, 68%);
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: #f8f9fa;
+}
+.container-fluid{
+    padding: 30px;
+}
+.navigation{border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;}
+.navbar.navigation {
+    height: 70px;
+
+     width: 483px;
+         background-color: rgba(7, 5, 5, 0.712);
+     position: relative;
+     left: 25px;
+     top: -23px;
+     margin-left: auto;
+ }
+ 
+ 
+ .navbar .navbar-toggler {position: relative;
+     bottom: 0px;
+     border: none;
+     color: white;
+ }
+ 
+ .navbar .navbar-toggler-icon {
+     position: relative;
+     bottom: 10px;
+     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+ }
+ 
+ .navbar  {
+     
+     color: white;
+     font-weight: 500;
+     font-size: 20px;
+ }
+  .About {
+         text-decoration: none;
+         color: rgb(255, 255, 252);
+         font-weight: 500;
+         font-size: 20px;
+         position: relative;
+         left: -30px;
+         top: 0px;
+     }
+ 
+     .Resume {
+         text-decoration: none;
+         color: rgb(255, 255, 252);
+         font-weight: 500;
+         font-size: 20px;
+         position: relative;
+         left: -10px;
+         top: 0px;
+     }
+ 
+     .Projects {
+         text-decoration: none;
+         color: hsl(35, 100%, 68%);
+         font-weight: 500;
+         font-size: 20px;
+         position: relative;
+         left:10px;
+         top: 0px;
+     }
+ 
+     .Contact {
+         text-decoration: none;
+         color: rgb(255, 255, 255);
+         font-weight: 500;
+         font-size: 20px;
+         position: relative;
+         left: 30px;
+         top: 0px;
+     }
+ 
+
+.profile {
+    background: linear-gradient(to bottom right, #ccedd8, #f4dda7);
+    overflow-x: hidden;
+}
+
+.me {
+    max-width: 190px;
+    border-radius: 30px;
+    margin: 0 auto;
+}
+ a.mymail {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width:30%;
+}
+
+.name {
+    font-weight: bold;
+    color: var(--black3);
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.developer {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    font-weight: 500;
+    padding: 6px 20px;
+    border-radius: 10px;
+}
+
+.contact-info {
+    font-size: 1rem;
+}
+
+.contact-info .mail-icon,
+.contact-info .phone-icon,
+.contact-info .linkedin-icon,
+.contact-info .git-icon,
+.contact-info .cv-icon {
+    background-color: rgb(44, 44, 44);
+    color: var(--org);
+    font-size: 1.25rem;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: var(--black);
+    
+}
+
+.main {
+    background: linear-gradient(to bottom right, #ccedd8, #f4dda7);
+}
+
+.navbar.navigation {
+    background-color: rgba(7, 5, 5, 0.712);
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar .nav-link {
+    color: white;
+    font-weight: 500;
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link.About {
+    color: var(--org);
+}
+
+.navbar .nav-link:hover {
+    color: #f79a9a;
+}
+
+.about {
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--black3);
+}
+
+.line {
+    background-color: rgb(92, 24, 24);
+    height: 8px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.p1, .p2 {
+    color: var(--black2);
+    font-weight: 420;
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+
+.wid {
+    color: var(--black3);
+    font-size: 1.75rem;
+}
+
+.webdesign,
+.webdevelopment,
+.phone1,
+.ui {
+    background: linear-gradient(to bottom right, #eff3d8, #fcefcf);
+}
+
+.webimg,
+.webdevimg,
+.mobileimg,
+.uiimg {
+    color: var(--org);
+    font-size: 2.5rem;
+}
+
+.webp1,
+.devp1,
+.mobp1,
+.uip1 {
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: var(--black3);
+}
+
+.webp2,
+.devp2,
+.mobp2,
+.uip2 {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--black2);
+}
+
+.footer {
+    height: 80px;
+}
+
+@media (min-width: 994px) {
+    a.mymail{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width:70%;
+    }
+}
+/* Media Queries */
+@media (max-width: 991px) 
+     {
+        a.mymail{display: block;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width:50%;
+        }
+    .navbar-collapse {
+        background-color: rgba(7, 5, 5, 0.9);
+        border-radius: 10px;
+        padding: 1rem;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .about {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 767px) { 
+    .contact-info{
+        position: relative;
+        left: 160px;
+      
+    }
+        a.mymail{display: block;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width:100%;
+        }
+    .about {
+        font-size: 2rem;
+    }
+    .line {
+        width: 150px;
+    }
+    .p1, .p2 {
+        font-size: 1rem;
+    }
+    .wid {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .mymail{
+        display: block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width:100%;
+    }
+    .about {
+        font-size: 1.75rem;
+    }
+    .line {
+        width: 100px;
+    }.main{
+        overflow-x: hidden;
+    }
+    .contact-info{
+        position: relative;
+        left: 20px;
+      
+    }
+    .navbar.navigation {
+        height: 80px;
+         border-bottom-left-radius: 20px;
+         border-top-right-radius: 20px;
+         width: 130px;
+             background-color:  rgb(59, 58, 58); 
+         position: relative;
+         left: 25px;
+         top: 0px;
+         margin-left: auto;
+     }
+     .navbar-collapse { 
+        background-color: rgb(59, 58, 58); 
+        padding: 10px; 
+        text-align: center;
+        justify-content: center;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+    }
+    .About {
+        text-decoration: none;
+        color: rgb(255, 255, 252);
+        font-weight: 500;
+        font-size: 20px;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+
+    .Resume {
+        text-decoration: none;
+        color: rgb(255, 255, 252);
+        font-weight: 500;
+        font-size: 20px;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+
+    .Projects {
+        text-decoration: none;
+        color: hsl(35, 100%, 68%);
+        font-weight: 500;
+        font-size: 20px;
+        position: relative;
+        left:0px;
+        top: 0px;
+    }
+
+    .Contact {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+        font-size: 20px;
+        position: relative;
+        left: 0px;
+        top: 0px;
+    }
+
+
+    
+    .navbar.navigation {
+        padding: 0.5rem;
+    }
+    .contact-info {
+        font-size: 0.9rem;
+    }
+    .webimg, .webdevimg, .mobileimg, .uiimg {
+        font-size: 2rem;
+    }
+    .webp1, .devp1, .mobp1, .uip1 {
+        font-size: 1.1rem;
+    }
+    .webp2, .devp2, .mobp2, .uip2 {
+        font-size: 0.9rem;
+    }
+}
