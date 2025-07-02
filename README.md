@@ -59,13 +59,12 @@ This portfolio is my digital masterpiece, showcasing my **web development projec
 ---
 
 ## 📄 Connect
-
-Keep code clean and add comments where needed!  LicenseLicensed under the MIT License (./LICENSE). Use, tweak, and share freely!  ConnectName: [Your Full Name]
-Email: [mohamedzameermpm123@gmail.com (mailto:mohamedzameermpm123@gmail.com)]
-GitHub: mohamedzameer33
-LinkedIn: [mohamedzameersm](https://www.linkedin.com/in/mohamed-zameer-4b3211301/)
+Name: [Mohamed Zameer S M] <br>
+Email: [mohamedzameermpm123@gmail.com (mailto:mohamedzameermpm123@gmail.com)] <br>
+GitHub: mohamedzameer33 <br>
+LinkedIn: [mohamedzameersm](https://www.linkedin.com/in/mohamed-zameer-4b3211301/) <br>
 Live Demo: [live-portfolio-link
-](https://portfolio-zameer.netlify.app/)
+](https://portfolio-zameer.netlify.app/) <br>
 <p align="center">
   Let’s create something epic together! 
 </p>
