@@ -1,8 +1,4 @@
-<p align="center">
-  <img src="images/portfolio-banner.png" alt="Portfolio Banner" width="80%">
-</p>
-
-<h1 align="center"> My Stunning Portfolio </h1>
+<h1 align="center">Portfolio Website</h1>
 
 <p align="center">
   <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"></a>
@@ -13,7 +9,7 @@
 </p>
 
 <p align="center">
-  A  responsive portfolio showcasing my web dev skills with HTML, CSS, JavaScript, and Bootstrap. Explore my projects, skills, and vibe! 
+  A  responsive portfolio website made with HTML, CSS, JavaScript, and Bootstrap. Explore my projects, skills, and vibe! 
 </p>
 
  Table of Contents About (#-about)
