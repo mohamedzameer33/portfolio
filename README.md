@@ -60,7 +60,7 @@ This portfolio is my digital masterpiece, showcasing my **web development projec
 
 ## 📄 Connect
 **Name: [Mohamed Zameer S M]** <br>
-**Email**: [mohamedzameermpm123@gmail.com](mailto:mohamedzameermpm123@gmail.com)] <br>
+**Email**: [mohamedzameermpm123@gmail.com](mailto:mohamedzameermpm123@gmail.com) <br>
 **GitHub: mohamedzameer33** <br>
 **LinkedIn**: [mohamedzameersm](https://www.linkedin.com/in/mohamed-zameer-4b3211301/) <br>
 **Live Demo**: [live-portfolio-link
