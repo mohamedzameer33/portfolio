@@ -64,7 +64,7 @@ This portfolio is my digital masterpiece, showcasing my **web development projec
 **GitHub: mohamedzameer33** <br>
 **LinkedIn**: [mohamedzameersm](https://www.linkedin.com/in/mohamed-zameer-4b3211301/) <br>
 **Live Demo**: [live-portfolio-link
-](https://portfolio-zameer.netlify.app/) <br>
+](https://portfolio1-zameer.netlify.app/) <br>
 <p align="center">
   Let’s create something epic together! 
 </p>
